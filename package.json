@@ -14,10 +14,10 @@
     "lint": "eslint",
     "format": "prettier --write . && eslint --fix",
     "check": "prettier --check .",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build"
   },
   "dependencies": {
-    "@cloudflare/vite-plugin": "^1.26.0",
+   
     "@fontsource-variable/geist": "^5.2.9",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
